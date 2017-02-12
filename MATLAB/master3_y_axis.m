@@ -1,0 +1,21 @@
+clc
+[d mx my]=distance();
+d1=d;
+while(my==3)
+    fwrite(s,52);
+    d2=distance();
+    if(d2>d1)
+        fwrite(s,51);
+        break;
+    end
+    d1=d2;    
+end
+while(my==4)
+    fwrite(s,51);
+    d2=distance();
+    if(d2>d1)
+        fwrite(s,52);
+        break;
+    end
+    d1=d2;
+end

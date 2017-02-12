@@ -1,0 +1,3 @@
+for controlling each motor by +/- 5 degrees use angle change in ard all file in the board
+
+master 2 - can move the shld3 motor to the min distance point between the arm and the bottle
